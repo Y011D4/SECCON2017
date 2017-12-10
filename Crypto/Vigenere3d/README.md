@@ -1,0 +1,2 @@
+key: _KP2Za_AAAAAAA
+plain: SECCON{Welc0me_to_SECCON_CTF_2017}
