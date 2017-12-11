@@ -66,18 +66,18 @@ print(len(bytestring))
 #        j += 1
 #        print(i, j)
 
-#while(i<len(bytestring)):
-#    j = 0
-#    while(j<len(f)):
-#        if(j>=len(f)):
-#            break
-#        intf = ord(f[j])
-#        j += 1
-#        plain.append(bytestring[i] ^ intf)
-#        i += 1
-#        if(i>=len(bytestring)):
-#            j = len(f)
-#print("".join(list(map(chr, plain))))
+while(i<len(bytestring)):
+    j = 0
+    while(j<len(f)):
+        if(j>=len(f)):
+            break
+        intf = ord(f[j])
+        j += 1
+        plain.append(bytestring[i] ^ intf)
+        i += 1
+        if(i>=len(bytestring)):
+            j = len(f)
+print("".join(list(map(chr, plain))))
 
 
 code = """${;}=+$();

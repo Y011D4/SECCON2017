@@ -66,4 +66,6 @@ def solve_p(key):
 print(solve_p(key))
 ```
 
+```
 SECCON{Welc0me_to_SECCON_CTF_2017}
+```
