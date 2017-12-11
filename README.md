@@ -19,6 +19,6 @@ Please let me know if you find some kinds of mistakes.
   * Qubic Rube (teammates solved)
 * Binary
   * [Powerful Shell](https://github.com/Y011D4/SECCON2017/tree/master/Binary/Powerful_Shell)
-  * [JPEG file](https://github.com/Y011D4/SECCON2017/tree/master/Binary/JPEG)
+  * [JPEG file](https://github.com/Y011D4/SECCON2017/tree/master/Binary/JPEG_file)
 * Web
   * Log search (teammates solved)
