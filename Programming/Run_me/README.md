@@ -3,7 +3,7 @@ __Genre__: Programming
 __Point__: 100pts
 
 > Run me!
-> ```py:RunMe.py
+> ```py
 > import sys
 > sys.setrecursionlimit(99999)
 > def f(n):
@@ -15,7 +15,7 @@ __Point__: 100pts
 This problem is about Fibonacci numbers.
 When lerge Fibonacci numbers are calculated recursively we must memorize the value which have been already calculated.
 Therefore the code above should be modified like this:
-```py:RunMe_mod.py
+```py
 import sys
 dp = [-1]*11012
 sys.setrecursionlimit(99999)

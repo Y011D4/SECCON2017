@@ -2,7 +2,7 @@
 __Genre__: Crypt
 __Point__: 100pts
 > Vigenere3d
-> ```python:Vigenere3d.py
+> ```py
 > import sys
 > def _l(idx, s):
 >     return s[idx:] + s[:idx]
@@ -28,13 +28,11 @@ There are two steps.
 1. Find the plain text
 
 ### Find the key
-```s = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz_{}"```
-
 It is turned out that the order difference in `s` between `s[i]` and `s[len(s)-i]` is important.
 Therefore the key is first initialized to `key = "AAAAAAAAAAAAAA"` (14 characters) and `key[i](0<=i<=6)` is obtained in order for `SECCON{` in plain text to be encrypted into `POR4dny`.
 Since `key` has 14 characters, 7 chars are just needed to be known in both plain and encrypted text.
 
-```solve_k.py
+```py
 def solve_k():
     p = "SECCON{__________________________}"
     k = ["A"] * 14
@@ -52,7 +50,7 @@ It is found that `key = _KP2Za_AAAAAAA` satisfies the condition.
 
 ### Find the plain text
 Now that key is found, we can decrypt.
-```solve_p.py
+```py
 def solve_p(key):
     p = "SECCON{__________________________}"
     p = list(p)
