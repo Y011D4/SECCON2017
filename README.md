@@ -1,7 +1,7 @@
 # SECCON2017
 ## Result
 Our team, Suicabar, obtained 1900pts and was graded in 85th/1028.
-Thanks for teammates, who are collegues in my lab.
+Thanks to teammates, who are collegues in my lab.
 
 ## Writeup
 I only share my writeups of the problem I can solve.
