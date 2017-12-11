@@ -17,6 +17,8 @@ I found that in 0x26F-0x270 is `FF FC`.
 According to the web page above, FF FC is not defined as segments.
 Therefore I modified `FF FC` into `FD FC` and obtained the JPEG file that contained the flag:
 
+![aa](https://raw.githubusercontent.com/Y011D4/SECCON2017/master/Binary/JPEG_file/tktk_mod.jpeg?token=AaH_isoDbhGbblTlUS1InlEx1BBOOQlBks5aN8AHwA%3D%3D)
+
 ```
 SECCON{jp3g_study}
 ```

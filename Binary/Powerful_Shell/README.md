@@ -7,3 +7,5 @@ __Point__: 300pts
 > [powerful_shell.ps1-1fb3af91eafdbebf3b3efa3b84fcc10cfca21ab53db15c98797b500c739b0024](https://files-quals.seccon.jp/powerful_shell.ps1-1fb3af91eafdbebf3b3efa3b84fcc10cfca21ab53db15c98797b500c739b0024)
 
 ## Writeup
+This is the problem about powershell.
+Using Windows PowerShell ISE
