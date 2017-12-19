@@ -14,7 +14,7 @@ First, I extracted modulus from the .pub files:
 $ openssl rsa -in pub1.pub -pubin -text -modulus > pub1.txt
 $ openssl rsa -in pub2.pub -pubin -text -modulus > pub2.txt
 ```
-When $n_1=p \times q_1$ and $n_2=p\times q_2$, one can factorize big numbers using Euclidean Algorithm.
+When $n_1=p \times q_1$ and $n_2=p\times q_2$, one can factorize big numbers using the Euclidean Algorithm.
 
 ```py
 import sys
