@@ -11,7 +11,7 @@ __Point__: 100pts
 > ```
 
 ## Writeup
-First, I compiled one-line program.
+First, I compiled the one-line program.
 (It is needed to modify the code to include some libraries like math.h)
 ```bash
 $ gcc putchar_music.c -o putchar_music -lm
