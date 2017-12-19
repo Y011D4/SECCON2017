@@ -15,7 +15,7 @@ The modulus is:
 ```
 0x00d546aa825cf61de97765f464fbfe4889ad8bf2f25a2175d02c8b6f2ac0c5c27b67035aec192b3741dd1f4d127531b07ab012eb86241c09c081499e69ef5aeac78dc6230d475da7ee17f02f63b6f09a2d381df9b6928e8d9e0747feba248bffdff89cdfaf4771658919b6981c9e1428e9a53425ca2a310aa6d760833118ee0d71
 ```
-We must factorize this modulus to see ciphers but usually it's impossible.
+We must factorize this modulus to see ciphers, but usually it's impossible.
 As the title of this problem indicates, however, the factorization can be done by [Pollard's p − 1 algorithm](https://en.wikipedia.org/wiki/Pollard%27s_p_%E2%88%92_1_algorithm)
 Hence I wrote a program with reference to [here](http://www.cnblogs.com/Christmas/p/5185512.html):
 
@@ -110,13 +110,13 @@ $ openssl rsa -in private.pem -out private.pem.unencrypted
 ```
 (The second line is not needed for this problem. However, if .pem file is encrypted it is necessary.)
 
-I imported the obtained .pem file into wireshark.
+I imported the obtained .pem file into Wireshark.
 
 |IP address|Port|Protocol|Key File|
 |:--|:--|:---|:--|
 |127.0.0.1|443|http|(path to .pem)|
 
-OK. Now I can see contents in http protocol!
+OK. Now I can see the contents in HTTP protocol!
 ```
 SECCON{One of these primes is very smooth.}
 ```
