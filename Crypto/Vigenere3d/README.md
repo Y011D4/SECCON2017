@@ -28,7 +28,7 @@ There are two steps.
 1. Find the plain text
 
 ### Find the key
-It is turned out that the order difference in `s` between `s[i]` and `s[len(s)-i]` is important.
+It turns out that the order difference in `s` between `s[i]` and `s[len(s)-i]` is important.
 Therefore the key is first initialized to `key = "AAAAAAAAAAAAAA"` (14 characters) and `key[i](0<=i<=6)` is obtained in order for `SECCON{` in plain text to be encrypted into `POR4dny`.
 Since `key` has 14 characters, 7 chars are just needed to be known in both plain and encrypted text.
 
@@ -49,7 +49,7 @@ print("key =", solve_k())
 It is found that `key = _KP2Za_AAAAAAA` satisfies the condition.
 
 ### Find the plain text
-Now that key is found, we can decrypt.
+Now that the key is found, we can decrypt.
 ```py
 def solve_p(key):
     p = "SECCON{__________________________}"
