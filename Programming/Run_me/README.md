@@ -13,7 +13,7 @@ __Point__: 100pts
 
 ## Writeup
 This problem is about Fibonacci numbers.
-When lerge Fibonacci numbers are calculated recursively we must memorize the value which have been already calculated.
+When large Fibonacci numbers are calculated recursively we must memorize the value which has been already calculated.
 Therefore the code above should be modified like this:
 ```py
 import sys
