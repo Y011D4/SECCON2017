@@ -7,7 +7,7 @@ __Point__: 300pts
 > [powerful_shell.ps1-1fb3af91eafdbebf3b3efa3b84fcc10cfca21ab53db15c98797b500c739b0024](https://files-quals.seccon.jp/powerful_shell.ps1-1fb3af91eafdbebf3b3efa3b84fcc10cfca21ab53db15c98797b500c739b0024)
 
 ## Writeup
-This is a problem about powershell.
+This is a problem about Powershell.
 Using Windows PowerShell ISE we can execute a .ps code.
 
 The .ps code doesn't work because of line 15113 and 15559.
@@ -40,7 +40,7 @@ Therefore I commented out these lines:
 .
 ```
 
-All lines except for the last makes `$ECCON` a executable code and the last execute codes written in `$ECCON`.
+All lines except for the last makes `$ECCON` an executable code and the last execute codes written in `$ECCON`.
 Hence I commented out the last line and added `echo $ECCON;`:
 
 ```ps
@@ -58,7 +58,7 @@ According to the displayed string, there are two stages to be cleared to get the
 1. Type the correct keys which mimic the piano.
 1. Decode the encrypted `$text` into `$plain` and know what is executed (`$plain` says).
 
-The 1st stage can be ignored (in reality, the error occured when I execute the .ps code and I cannot do the 1st stage).
+The 1st stage can be ignored (in reality, the error occurred when I execute the .ps code and I cannot do the 1st stage).
 
 ```ps
 $stage1=@();$f="";
@@ -83,7 +83,7 @@ If($secret.length -eq $stage1.length){
 ```
 
 
-I wrote a python code which worked the same as 2nd stage:
+I wrote a python code which worked the same as the 2nd stage:
 
 ```ps
 $text=@"
